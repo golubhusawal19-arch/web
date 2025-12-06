@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<html></html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
@@ -13,7 +13,7 @@
     section { padding: 20px; margin: 20px; background: white; border-radius: 8px; box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); }
     .car-list { display: flex; justify-content: space-around; flex-wrap: wrap; }
     .car { width: 30%; margin: 10px 0; text-align: center; background: #fff; border-radius: 8px; box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); }
-    .car img { width: 100%; height: 180px; object-fit: cover; border-radius: 8px 8px 0 0; }
+    .car img { width: 100%; border-radius: 8px 8px 0 0; }
     footer { text-align: center; padding: 10px; background: #333; color: white; }
   </style>
 </head>
@@ -34,25 +34,21 @@
 <section id="home">
   <h2>Featured Cars</h2>
   <div class="car-list">
-
     <div class="car">
-      <img src="https://imgd.aeplcdn.com/370x208/n/cw/ec/203832/m340i-exterior-right-front-three-quarter.jpeg?isig=0&wm=1&q=80" alt="BMW 340i">
+      <img src="https://imgd.aeplcdn.com/370x208/n/cw/ec/203832/m340i-exterior-right-front-three-quarter.jpeg?isig=0&wm=1&q=80" alt="Car 1">
       <h3>BMW 340i</h3>
       <p>Price: ₹80,00,000</p>
     </div>
-
     <div class="car">
-      <img src="https://tse4.mm.bing.net/th/id/OIP.eQ9_Hc_VPaZd2n3NXwT4gQHaEL?rs=1&pid=ImgDetMain" alt="Porsche 911 GT">
-      <h3>Porsche 911 GT</h3>
-      <p>Price: ₹1,20,00,000</p>
+      <img src="https://tse4.mm.bing.net/th/id/OIP.eQ9_Hc_VPaZd2n3NXwT4gQHaEL?rs=1&pid=ImgDetMain&o=7&rm=3 " alt="Car 2">
+      <h3>Poarsha 911 GT</h3>
+      <p>Price: ₹1,200,000</p>
     </div>
-
     <div class="car">
-      <img src="https://cdn.motor1.com/images/mgl/0ANJ9/s3/toyota-land-cruiser-300.jpg" alt="Land Cruiser 300">
-      <h3>Land Cruiser 300</h3>
+      <img src="" alt="Land Cruser 300">
+      <h3>Car Model 3</h3>
       <p>Price: ₹2,00,00,000</p>
     </div>
-
   </div>
 </section>
 
@@ -62,5 +58,3 @@
 
 </body>
 </html>
-
-
