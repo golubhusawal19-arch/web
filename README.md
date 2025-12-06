@@ -3,19 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Car Dealership</title>
-  <style>
-    body { font-family: Arial, sans-serif; margin: 0; padding: 0; background: #f4f4f4; }
-    header { background: #333; color: white; text-align: center; padding: 20px; }
-    nav { background: #444; overflow: hidden; }
-    nav a { color: white; padding: 14px 20px; text-decoration: none; float: left; }
-    nav a:hover { background: #ddd; color: black; }
-    section { padding: 20px; margin: 20px; background: white; border-radius: 8px; box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); }
-    .car-list { display: flex; justify-content: space-around; flex-wrap: wrap; }
-    .car { width: 30%; margin: 10px 0; text-align: center; background: #fff; border-radius: 8px; box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); }
-    .car img { width: 100%; border-radius: 8px 8px 0 0; }
-    footer { text-align: center; padding: 10px; background: #333; color: white; }
-  </style>
+ 
 </head>
 <body>
 
@@ -58,3 +46,4 @@
 
 </body>
 </html>
+
